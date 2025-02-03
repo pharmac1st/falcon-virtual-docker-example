@@ -19,7 +19,7 @@ docker run --rm \
     -p 443:443 \
     -h hello.localhost \
     -h beer.localhost \
-    --name test virtual-test
+    --name test falcon-virtual-test
 ```
 
 Once running, both https://localhost.beer and https://localhost.hello should be accesible via `curl` or web browser. You may need to use `-k` when using curl.
